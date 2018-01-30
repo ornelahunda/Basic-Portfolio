@@ -6,6 +6,7 @@ text-align-last: center;
 margin-top:-10px;
 margin-left: 160px;
 margin-right:383px;
+
 height: 85px;
 width: 230px;
 padding: 10px;
@@ -23,16 +24,20 @@ text-align: right;
     padding: 10px;
     margin-bottom: 50px;
     margin-top: -60px;
-margin-left:815px;
+margin-left:600px;
 margin-right: 150px;
 font-size: 17px;
 }
 
 a:link {
     text-decoration: none;
-    color: #777777;
-}
+    color:#777777 ;
+    border-left: 1px solid #777777;
+    border-left-width: 2px;
+    border-right-width: 2px;
 
+}
+ 
 
 
 #centerContent {
@@ -44,7 +49,7 @@ a:link {
     box-sizing: border-box;
     border-bottom-color: #4aaaa5;
     border-bottom-width: 10px;
-  margin-top: -40px;
+  margin-top: -45px;
 
 
 }
@@ -56,15 +61,21 @@ h3{ color: #4aaaa5;
 }
 #centerLeft {
 
-  
+ 
     background-color: white;
     color:#777777;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-right:450px;
     margin-left: 135px;
-
+      padding-top: 20px;
+       padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+     
 }
+
+
 
 h4{
     color: #4aaaa5;
@@ -81,8 +92,12 @@ h4{
     height: 150px;
     padding: 30px;
     margin-left:720px;
-    margin-top: -412px;
-margin-bottom: 250px;
+    margin-top: -520px;
+margin-bottom: 300px;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
 }
 
 
@@ -93,5 +108,5 @@ footer {
     background: #666666;
     text-align: center;
      color:#dad6d6;
-     text-size: 30px;
+     font-size: 15px;
   }
