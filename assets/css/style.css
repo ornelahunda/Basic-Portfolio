@@ -18,7 +18,7 @@ font-size:20px;
 
 hr {
     color:#8a8787;
-    margin: 
+  margin:10px;
 }
 
 
@@ -31,7 +31,8 @@ text-align: right;
     margin-top: -60px;
 margin-left:600px;
 margin-right: 150px;
-font-size: 17px;
+font-size: 20px;
+color: #777777;
 }
 
 a:link {
@@ -46,13 +47,14 @@ a:link {
 #centerContent {
     background-image: 
     url(/Users/ornelahunda/Basic-Portfolio/assets/images/dust_scratches.png);
-    height: 80%;
+    height: 700px;
      width: 100%;
     padding: 25px;
     box-sizing: border-box;
     border-bottom-color: #4aaaa5;
     border-bottom-width: 10px;
   margin-top: -45px;
+  margin-bottom: -40px;
 
 
 }
@@ -64,7 +66,7 @@ h3{ color: #4aaaa5;
 }
 #centerLeft {
 
- 
+    position: relative;
     background-color: white;
     color:#777777;
     margin-top: 40px;
@@ -94,10 +96,12 @@ h4{
 
     width: 240px;
     height: 150px;
+    position: relative;
     padding: 30px;
-    margin-left:660px;
-    margin-top: -470px;
-margin-bottom:300px;
+    margin-left:700px;
+    margin-right:10px;
+    margin-top: -480px;
+margin-bottom:250px;
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
@@ -109,26 +113,73 @@ float:left;
 margin-right:10px; 
 margin-bottom:10px;
 }
-#portfolio{
-    background-color: white;
-    color:#777777;
-    margin-top: 40px;
-    margin-bottom: -20px;
-    margin-right:450px;
-    margin-left: 135px;
-      padding-top: 20px;
-       padding-right: 20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
+
+
+       h6 {color: white;  
+             position: absolute; 
+            background-color: #4aaaa5;  
+            width:200px; 
+            height: 50px;
+            margin-top:105px;
+            font-size: 23px;
+            top:120px;
+           padding-top:5px; 
+         }
+         
+         h7 {color: white;
+          background-color: #4aaaa5; 
+            position: absolute; 
+           
+           width:200px; 
+           height: 50px;
+           margin-top:105px;
+           margin-left:-204px;
+           font-size: 23px;
+           top:120px;
+          padding-top:5px; 
+        }
+        h8{color: white;  
+            position: absolute; 
+           background-color: #4aaaa5;  
+           width:200px; 
+           height: 50px;
+           margin-top:287px;
+           margin-left:-204px;
+           margin-right:600px;
+           font-size: 23px;
+           top:120px;
+          padding-top:5px; 
+
+        }
+h9{color: white;
+    background-color: #4aaaa5; 
+      position: absolute; 
+     
+     width:200px; 
+     height: 50px;
+     margin-top:287px;
+     margin-left:-200px;
+     font-size: 23px;
+     top:120px;
+    padding-top:5px; 
 
 }
-.games{
-  
+
+
+.centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+
 }
 
 
 footer {
-   
+    position:relative;
+   margin-top: 10px;
     padding: 30px;
     clear: both;
     background: #666666;
