@@ -1,9 +1,12 @@
-<!DOCTYPE html>
+<!-- Declaring the type of file,which is html. -->
+<!DOCTYPE html> 
 <html lang="en-us">
-
+<!-- Head is the part of html where we can add links to different stylesheets-->
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ornela's Portfolio</title>
+  <!-- Linking with two CSS stylesheets -->
   <link rel="stylesheet" type="text/css"href="/Users/ornelahunda/Basic-Portfolio/assets/css/reset.css">
   <link rel="stylesheet" type="text/css"
    href="/Users/ornelahunda/Basic-Portfolio/assets/css/style.css">
@@ -13,11 +16,15 @@
 
 
 <body>
+  <!-- This is the body of the page and contains the visible part of the 
+    website -->
 
-
+<!-- The name section contains the main header of the page -->
   <section id="name">
     <h1>Ornela Hunda</h1>
   </section>
+<!-- In this section  there are the links to 3 different pages that 
+  this portfolio contains -->
 
   <section id="rightTop">
     <a href="/Users/ornelahunda/Basic-Portfolio/index.html">About</a> |
@@ -26,16 +33,19 @@
     <a href="/Users/ornelahunda/Basic-Portfolio/contact.html">Contact </a>
   </section>
 
+<!-- This section contains the centered content of the page -->
 
+  <div id="centerContent" class="clearfix::after" >
 
-  <div id="centerContent"  >
+    <!-- Left section of centered content which makes the difference 
+      between, About, Portfolio and Contact-->
     <section id="centerLeft">
       <h3>About Me</h3>
       <hr>
-
+<!-- A picture of the author of this page -->
       <img src="/Users/ornelahunda/Basic-Portfolio/assets/images/oh.jpg" alt="Ornela Hunda" 
       height="200" width="200" id="photo"/>
-
+<!-- Short introduction -->
       <p >I am Ornela Hunda and this is my Portfolio website.</p>
      <p> I was born in the south of Albania, located in southeastern of Europe. Since a child I was always fascinated by computers
         and technology but also I was very intrigued by the fact that how economy worked in different countries. I continued
@@ -48,10 +58,12 @@
         you dreams die. If you have a heartbeat there is still time to make them come true.
       </p>
 
-
     </section>
 
-    <section id="centerRight">
+
+<!-- This is the right section of the main content, where are located links to authors profile in github, linkedIn and stackoverflow -->
+
+    <section id="centerRight" class="clearfix::after">
       <h4>Connect with Me</h4>
       <hr>
       <a href="https://github.com/ornelahunda" target="_blank" align="left">
@@ -63,12 +75,12 @@
         <img src="/Users/ornelahunda/Basic-Portfolio/assets/images/if_stackoverflow_273179.png" height="58px" width="58"> </a>
     </section>
 
-  </div>
+
+  </div>  
+<!-- End of center content-->
 
 
-
-
-
+<!-- This section is the footer of the page, where is stated the copyright of this website -->
   <footer>
 
     Copyright © 2018 Ornela Hunda

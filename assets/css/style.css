@@ -1,3 +1,4 @@
+/* #name represents an id for the main header of this website */
 #name
 { color: white;
 background-color:#4aaaa5;
@@ -14,14 +15,14 @@ font-size:20px;
 
 
 }
-
+/* Horizontal line */
 
 hr {
     color:#8a8787;
   margin:10px;
 }
 
-
+/* Styling of the links to other pages */
 #rightTop{ 
 background-color: white;
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -41,18 +42,14 @@ a:link {
 
     
 }
- 
-
 
 #centerContent {
     background-image: 
     url(/Users/ornelahunda/Basic-Portfolio/assets/images/dust_scratches.png);
     height: 700px;
-     width: 100%;
+     width:1500px;
     padding: 25px;
-    box-sizing: border-box;
-    border-bottom-color: #4aaaa5;
-    border-bottom-width: 10px;
+ border-top:  1px solid rgb(235, 229, 229);
   margin-top: -45px;
   margin-bottom: -40px;
 
@@ -65,18 +62,28 @@ h3{ color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #centerLeft {
-
+    float:left;
+    overflow: auto;
+    width:640px;
+    height:450px;
     position: relative;
     background-color: white;
     color:#777777;
+    border: 1px solid rgb(235, 229, 229); 
     margin-top: 40px;
     margin-bottom: -20px;
     margin-right:450px;
     margin-left: 135px;
-      padding-top: 20px;
-       padding-right: 20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
+ 
+ 
+    /* Space between the border and the content of this section */
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+     
+
+           
      
 }
 
@@ -88,37 +95,48 @@ h4{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#centerRight{
-   
-   
-    text-align: center;
-   background-color: white;
 
-    width: 240px;
-    height: 150px;
-    position: relative;
-    padding: 30px;
-    margin-left:700px;
-    margin-right:10px;
-    margin-top: -480px;
-margin-bottom:250px;
+/* Setting the width of the right section 270px as given in the 
+instructions. */
+
+#centerRight{
+  
+    /* Section size and color */
+width: 270px;
+height: 200px;
+background-color: white;
+border: 1px solid rgb(235, 229, 229); 
+   
+text-align: center; 
+ 
+  
+ /*Positioning of this section inside the parent */
+float: right;
+overflow: auto;
+margin-top: -470px;
+margin-right: 330px;
+
+/* Space between the border and the content of this section */
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
 }
 
+/* positioning photo inside the content */
 #photo{
 float:left; 
-margin-right:10px; 
+margin-right:10px;
+margin-left:10px; 
 margin-bottom:10px;
 }
 
-
+/* Game names, giving same color and size and also positioning on  
+top of the pic. */
        h6 {color: white;  
              position: absolute; 
             background-color: #4aaaa5;  
-            width:200px; 
+            width:255px; 
             height: 50px;
             margin-top:105px;
             font-size: 23px;
@@ -130,10 +148,10 @@ margin-bottom:10px;
           background-color: #4aaaa5; 
             position: absolute; 
            
-           width:200px; 
+           width:255px; 
            height: 50px;
            margin-top:105px;
-           margin-left:-204px;
+           margin-left:-259px;
            font-size: 23px;
            top:120px;
           padding-top:5px; 
@@ -141,10 +159,10 @@ margin-bottom:10px;
         h8{color: white;  
             position: absolute; 
            background-color: #4aaaa5;  
-           width:200px; 
+           width:255px; 
            height: 50px;
            margin-top:287px;
-           margin-left:-204px;
+           margin-left:-259px;
            margin-right:600px;
            font-size: 23px;
            top:120px;
@@ -155,10 +173,10 @@ h9{color: white;
     background-color: #4aaaa5; 
       position: absolute; 
      
-     width:200px; 
+     width:255px; 
      height: 50px;
      margin-top:287px;
-     margin-left:-200px;
+     margin-left:-255px;
      font-size: 23px;
      top:120px;
     padding-top:5px; 
@@ -177,13 +195,20 @@ h9{color: white;
 }
 
 
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;}
+
+     /* Setting the footer's properties: background-color, text color,
+      text positioning, size, border  */
 footer {
-    position:relative;
-   margin-top: 10px;
     padding: 30px;
     clear: both;
     background: #666666;
     text-align: center;
      color:#dad6d6;
      font-size: 15px;
-  }
+     border-top: 8px solid #4aaaa5;
+  } 
